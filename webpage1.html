@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="webpage1.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+
+}
+.main{
+    width: 100%;
+  background-image: url(1.jpg);
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%); */
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+.navbar{
+    height: 70px;
+    width: 1200px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+ justify-content: center;   
+}
+ul li {
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 18px;
+
+}
+ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+   
+    float: left;
+    width: 330px;
+    margin-left: 270px;
+    
+   
+
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: beige;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px;
+}
+.btn{
+   
+    height: 40px;
+    background: #ff7200;
+    border:solid 2px #ff7200 ;
+    color: azure;
+    font-size: 15px;
+    margin-top: 13px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: #d4cfcb;
+position: relative;
+}
+.content .pra{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width:160px ;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.cn:hover{
+     background-color: #d4cfcb;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+
+}
+/* .form{
+    height: 380px;
+    width: 250px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+} */
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">MoAzAm</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Service</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input  class="srch" type="search" placeholder="Enter a text" required>
+                <a href="https://www.google.co.uk/" ><button class="btn" >Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Web Design & <br><span>Development</span><br>Course</h1>
+            <p class="pra">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Magni eius recusandae nam natus cumque facilis similique corrupti perferendis fuga. <br> Eum reprehenderit consequatur voluptatum voluptate odit harum rem dolorem quae eveniet.</p>
+            <button class="cn"><a href="">Join Us</a></button>
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="Email" placeholder="Enter Email Here">
+                <input type="password" name="password" placeholder="Enter Password Here">
+                <button class="btn"><a href="">Login Here</a></button>
+                <p class="link">Don't have account</p>
+                <a href="">Sign Up Here</a>
+                <p class="liw">log in here</p>
+            </div>
+        </div>
+    </Div>
+</body>
+</html>
