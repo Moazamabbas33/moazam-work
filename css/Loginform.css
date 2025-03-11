@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x:hidden ;
+}
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.main{
+    border: 3px solid black;
+    height: 700px;
+    width: 1000px;
+  
+    margin-top: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:#8a2be2 ;
+}
+.container{
+    border: 2px solid black;
+    height: 500px;
+    width: 900px;
+    margin-top: 100px;
+  margin-left: 50px;
+  background-color: rgba(207, 193, 234, 1);
+ 
+}
+
+.header h1{
+margin-left: 85px;
+margin-top: 180px;
+font-size: 50px;
+color: white;
+}
+.header .btn{
+   height: 50px;
+   width: 90px;
+   font-family: inherit;
+   border-radius: 8px;
+   color: white;
+   font-weight: 500;
+   padding: 7px;
+   background-color: rgb(130,249 ,249);
+   border: none;
+   margin-top: 20px;
+   margin-left: 190px;
+   font-size: 17px;
+}
+.topbox{
+    background-color: white;
+    width: 350px;
+    height: 578px;
+    position: relative;
+    left:510px ;
+    bottom:349px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+
+}
+
+
+label{
+    position: relative;
+    left: 23px;
+    top: 50px;
+    margin: 14px;
+}
+input{
+    border-radius: 2px;
+    color: red;
+    margin: 12px;
+    height: 25px;
+    width: 220px;
+    border: 1px solid;
+    border-color: #8a2be2;
+    padding: 6px;
+    display: block;
+    position: relative;
+    left: 24px;
+    top: 50px;
+  border-bottom-left-radius: 20px;
+   border-top-right-radius:20px ;
+}
+.bs{
+    height: 50px;
+    width: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    padding: 7px;
+    background-color: #8a2be2;
+    border: none;
+    margin-top: 40px;
+    margin-left: 95px;
+}
+.bs:hover{
+    background-color: rgba(207, 193, 234, 1) ;
+    color: black ;
+}
+.btn:hover{
+    background-color: rgba(207, 193, 234, 1) ;
+    color: black ;
+}
+label{
+    transition-delay: 0ms;
+    transition-delay: 5ms;
+    
+}
+@media (max-width:1200px)
+{
+    .main{
+        width: 500px;
+    }
+      
+}
+
+  

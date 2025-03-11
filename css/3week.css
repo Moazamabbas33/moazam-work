@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #0ea84e;
+    color: #333;
+    text-align: center;
+}
+.hero{
+   padding: 100px;
+}
+.hero-description{
+    color: #81da81; ;
+
+}
+.hero-highlight{
+    color:#333;
+}
