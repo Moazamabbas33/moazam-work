@@ -1,37 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
-    <style>
-        li a{
-            list-style: none;
-            text-decoration: none;
-           
-            
-        }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/resnav.css">
 
-    
-      
-       
-    </style>
+    <title>Profile</title>
 </head>
+
 <body>
-    <H2>Practice Projects</H2><br>
-    <ul>
-        <li><a href="html/index.html">NavBar Sidebar</a></li>
-        <li><a href="html/footer.html">Footer</a></li>
-        <li><a href="html/ludonew.html">Ludo Layout</a></li>
-        <li><a href="html/lofinform.html">Login Form</a></li>
-        <li><a href="html/form.html">Form</a></li>
-        <li><a href="html/form1.html">Form</a></li>
-        <li><a href="html/mcqs.html">Mcqs Question type</a></li>
-        <li><a href="html/practice.html">Section</a></li>
-        <li><a href="html/webpage1.html">Webpage</a></li>
-        <li><a href="html/webpage.html">Webpage</a></li>
-        
-        
-    </ul>
+    <nav>
+        <div class="logo">
+            <h1>MoAzAm AbbAS</h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact Us</a></li>
+            <!-- <li><a href="">About Us</a></li>
+            <li><a href="">Product</a></li> -->
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars " onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+   <div class="main">
+        <div class="content">
+            <h1>Web Design & <span>Development</span><br></h1>
+            <!-- <p class="pra">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Magni eius recusandae nam natus cumque facilis similique corrupti perferendis fuga. <br> Eum reprehenderit consequatur voluptatum voluptate odit harum rem dolorem quae eveniet.</p> -->
+            <button class="cn"><a href="">Join Us</a></button>
+        </div>
+    
+    <div class="slider">
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 1</span></div>
+
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/index.html"><button class="btn">Click
+                        Here</button></a></div>
+        </div>
+
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 2</span></div>
+            <div class="img">
+
+
+            </div>
+
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/webpage.html"><button class="btn">Click
+                        Here</button></a></div>
+        </div>
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 3</span></div>
+            <div class="img">
+
+
+            </div>
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/form.html "><button class="btn">Click
+                        Here</button></a></div>
+        </div>
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 4</span></div>
+            <div class="img">
+
+
+            </div>
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/footer.html"><button class="btn">Click
+                        Here</button></a></div>
+        </div>
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 5</span></div>
+            <div class="img">
+
+
+            </div>
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/header.html"><button class="btn">Click
+                        Here</button></a></div>
+        </div>
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 6</span></div>
+            <div class="img">
+
+
+            </div>
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/ludonew.html"><button class="btn">Click
+                        Here</button></a></div>
+        </div>
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 7</span></div>
+            <div class="img">
+
+
+            </div>
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/mcqs.html"><button class="btn">Click Here</button></a>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="header">Assignment <br><span class="no">No 8</span></div>
+            <div class="img">
+
+
+            </div>
+
+            <div class="link"><a href="http://127.0.0.1:5500/html/form1.html"><button class="btn">Click
+                        Here</button></a></div>
+        </div>
+    </div>
+    </div>
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px"
+            } else {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
