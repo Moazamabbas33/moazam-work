@@ -1,33 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage Design</title>
-    <link rel="stylesheet" href="webpage1.css">
-    <style>
-        *{
+*{
     margin: 0px;
     padding: 0px;
 
 }
 .main{
     width: 100%;
-  background-image: url(/resource/1.jpg);
+  background-image: url(/resource/pexels-eberhardgross-1287089.jpg);
     /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%); */
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
-    height: 120vh;
+    height: auto;
 }
 .navbar{
     height: 70px;
-    width: 1200px;
-    margin: auto;
+    width: auto;
+    /* margin: auto; */
+    border: 2px solid black;
+    height: 70px;
+    
+    background-color: #d4cfcb;
 }
 .icon{
     width: 200px;
     float: left;
     height: 70px;
+   
 }
 .logo{
     color: #ff7200;
@@ -41,11 +38,14 @@
     width: 400px;
     float: left;
     height: 70px;
+     margin-left: 700px; 
+    
 }
 ul{
     float: left;
     display: flex;
- justify-content: center;   
+ justify-content: center;  
+
 }
 ul li {
     list-style: none;
@@ -154,52 +154,4 @@ position: relative;
 .content span{
     color: #ff7200;
     font-size: 60px;
-
 }
-.form{
-    height: 380px;
-    width: 250px;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
-    display: contents;
-}
-
-
-
-    </style>
-</head>
-<body>
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">MoAzAm</h2>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Service</a></li>
-                </ul>
-            </div>
-            <div class="search">
-                <input  class="srch" type="search" placeholder="Enter a text" required>
-                <a href="https://www.google.co.uk/" ><button class="btn" >Search</button></a>
-            </div>
-        </div>
-        <div class="content">
-            <h1>Web Design & <br><span>Development</span><br>Course</h1>
-            <p class="pra">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Magni eius recusandae nam natus cumque facilis similique corrupti perferendis fuga. <br> Eum reprehenderit consequatur voluptatum voluptate odit harum rem dolorem quae eveniet.</p>
-            <button class="cn"><a href="">Join Us</a></button>
-            <div class="form">
-                <h2>Login Here</h2>
-                <input type="email" name="Email" placeholder="Enter Email Here">
-                <input type="password" name="password" placeholder="Enter Password Here">
-                <button class="btn"><a href="">Login Here</a></button>
-                <p class="link">Don't have account</p>
-                <a href="">Sign Up Here</a>
-                <p class="liw">log in here</p>
-            </div>
-        </div>
-    </Div>
-</body>
-</html>

@@ -4,13 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-html, body{
-    height: 100%;
-    width: 100%;
-    background-color: #3498db;
+ body{
+   
+    /* background-color: #3498db; */
+    background: url(/resource/pic1.jpg);
+    background-size: cover;
 }
 nav{
-    padding: 10px 30px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +20,7 @@ nav{
     
 }
 .logo{
-    color: #fff;
+    color: #ff7200;
 }
 nav ul {
     display: flex;
@@ -42,26 +43,136 @@ nav ul li a{
 #menuList{
     transition: 0.5s;
 }
-@media (max-width:800px)
-{
-nav ul {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right:0;
-flex-direction: column;
-text-align: center;
-background: #004274;
-gap: 0;
-overflow: hidden;
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.content{
+    color: #d4cfcb;
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+ .cn{
+    width:160px ;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+  
+}
+ a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
 
 }
+.cn:hover{
+     background-color: #d4cfcb;
+}
+.link button:hover{
+    background-color: #d4cfcb;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+
+}
+.slider{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  
+}  
+ .box1{
+    height: auto;
+    width: 11%;
+    box-shadow: 3px 3px 5px #ff7200;
+    
+
+}
+.slider{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ .btn{
+
+ width:100px ;
+height: 40px;
+background: #ff7200;
+border: none;
+margin-bottom: 20px;
+margin-top: 20px;
+border-radius: 10px;
+cursor: pointer;
+transition: .4s ease;
+margin-top: 30px;
+
+
+}
+ .header{
+
+margin-top: 38px;
+color: #ff7200;;
+font-size: 28px;
+}
+.slider .no{
+    color: #d4cfcb;
+    margin-top: 8px;
+}
+
+
+@media (max-width:1000px)
+{
+ 
+    nav{
+        width: 100%;
+    }
 nav ul li {
     padding: 20px;
 }
+
+#menuList{
+    display: none;
+}
+
 .menu-icon{
     display: block;
 }
+.main {
+    text-align: center;
+    position: relative;
+} 
+
+.slider{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 98%;
+}
+
 }
     
 
